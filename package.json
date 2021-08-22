@@ -1,0 +1,14 @@
+{
+  "name": "rental-app",
+  "version": "1.0.0",
+  "description": "\"home rental app\"",
+  "main": "rental.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mark rose",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
