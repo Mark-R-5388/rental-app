@@ -4,14 +4,58 @@ body {
   box-sizing: border-box;
 }
 
+h1 {
+  font-size: 6em;
+}
+
+p {
+  font-size: 2em;
+}
 /* Header Start */
+#title {
+  border: 1px solid red;
+  margin-bottom: 2rem;
+}
 /* Header End */
 
 /* Header Image Container Start */
+.header-image-container {
+  width: 100%;
+  height: 20rem;
+  border: 1px solid green;
+  margin-bottom: 2rem;
+}
 /* Header Image Container End */
 
 /* Search Container Start */
+.search-container {
+  height: 5rem;
+  width: 100%;
+  border: 1px solid blue;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+label {
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  width: 15rem;
+  height: 4rem;
+  font-size: 0.75em;
+  margin-left: 0.75rem;
+}
 /* Search Container End */
 
 /* List Container Start */
+.list-container {
+  margin: 0 auto;
+  width: 80%;
+  height: 30rem;
+  border: 1px solid black;
+}
 /* List Container End */

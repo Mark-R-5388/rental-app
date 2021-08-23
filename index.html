@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home and Appartment Rental</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <!-- Banner Start -->
-    <h1>Rental App</h1>
+    <h1 id="title">Rental App</h1>
     <!-- Banner End -->
 
     <!-- Header Image Start -->
@@ -19,29 +19,34 @@
 
     <!-- Search Area Start -->
     <!-- Required- city(string), state_code(string), limit(number of items),  -->
-    <div class="search-container">
+    <form class="search-container">
       <label for="city"
         >City:
-        <input id="city" type="text" />
+        <input id="city" type="text" required />
       </label>
       <label for="state"
         >State:
-        <input id="state" type="text" />
+        <input id="state" type="text" required />
       </label>
       <label for="limit"
         >Search Amount:
-        <input id="limit" type="number" />
+        <input id="limit" type="number" required />
       </label>
-    </div>
+      <input id="search-button" type="submit" />
+    </form>
     <!-- Optional postal_code, sort(relevance,newest, price_low,price_high,photos,open_house_date,sqft_high,price_reduced_date) prop_sub_type(condo,cond_op,townhouse,co_op),
          -->
     <!-- Search Area End -->
 
     <!-- List Start -->
-    <div class="list-container"></div>
+    <div class="list-container">
+      <!-- <p>name</p>
+      <p>state</p>
+      <p>number</p> -->
+    </div>
     <!-- List End -->
 
     <!-- Javascript -->
-    <script type="module" src="/rental.js"></script>
+    <script src="/dist/main.js"></script>
   </body>
 </html>

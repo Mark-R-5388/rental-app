@@ -1,14 +1,22 @@
 {
   "name": "rental-app",
   "version": "1.0.0",
-  "description": "\"home rental app\"",
-  "main": "rental.js",
+  "description": "",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
-  "author": "mark rose",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mark-R-5388/rental-app.git"
+  },
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "dotenv": "^10.0.0"
+  "devDependencies": {
+    "dotenv-webpack": "^7.0.3",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
   }
 }
